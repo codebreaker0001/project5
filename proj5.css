@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Tilt Neon', cursive;
+
+}
+body{
+    background-image: url("./assts/bg.png");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 1536px 713px;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.head-left{
+    display: flex;
+    justify-content: left;
+    align-items: left   ;
+    margin: 10px 600px 10px 0px;
+    gap: 30px;
+    font-size: 20px;
+}
+.head-right{
+    display: flex;
+    justify-content: center;
+    margin: ;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.main-centre{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 170px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+span{
+    color: white;
+}
+button{
+    background-color: #B90EC5;
+    border: none;
+    width: fit-content;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.margin{
+    margin: 10px;
+}
